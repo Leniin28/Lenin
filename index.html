@@ -14,11 +14,11 @@
             <div class="form-row">
                 <div class="form-group">
                     <label for="firstName">First Name:</label>
-                    <input type="text" id="firstName" name="firstName" required>
+                    <input type="text" id="firstName" name="firstName" placeholder="Ingresa tu nombre" required>
                 </div>
                 <div class="form-group">
                     <label for="lastName">Last Name:</label>
-                    <input type="text" id="lastName" name="lastName" required>
+                    <input type="text" id="lastName" name="lastName" placeholder="Ingresa tu apellido" required>
                 </div>
             </div>
 
@@ -26,11 +26,15 @@
             <div class="form-row">
                 <div class="form-group">
                     <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
+                    <input type="email" id="email" name="email" placeholder="Ingresa tu Gmail" required>
                 </div>
                 <div class="form-group">
                     <label for="jobRole">Job Role:</label>
-                    <input type="text" id="jobRole" name="jobRole" required>
+                    <select id="jobRole" name="jobRole" required>
+                        <option value="" disabled selected>Select</option> 
+                        <option value="opcion1">Opción 1</option>
+                        <option value="opcion2">Opción 2</option>
+                    </select>
                 </div>
             </div>
 
@@ -38,7 +42,7 @@
             <div class="form-row">
                 <div class="form-group">
                     <label for="address">Address:</label>
-                    <input type="text" id="address" name="address" required>
+                    <input type="text" id="address" name="address" placeholder="Ingresa tu Dirección" required>
                 </div>
             </div>
 
@@ -46,11 +50,11 @@
             <div class="form-row">
                 <div class="form-group">
                     <label for="city">City:</label>
-                    <input type="text" id="city" name="city" required>
+                    <input type="text" id="city" name="city" placeholder="Ingresa tu Ciudad" required>
                 </div>
                 <div class="form-group">
                     <label for="pincode">Pincode:</label>
-                    <input type="text" id="pincode" name="pincode" required>
+                    <input type="text" id="pincode" name="pincode" placeholder="Ingresa tu pin" required>
                 </div>
             </div>
 
