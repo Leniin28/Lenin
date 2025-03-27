@@ -1,0 +1,11 @@
+Nintendo, 3000
+chanclas, 300
+PS5, 6999
+laptop, 25000
+moto electrica, 54000
+dulce, 40
+ventilador, 2000
+tv, 15000
+silla, 799
+teclado, 3000
+jamon, 68
